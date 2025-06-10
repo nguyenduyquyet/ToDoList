@@ -7,7 +7,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #153677, #4e085f);
+    background: linear-gradient(135deg, #122e65, #4e085f);
     padding: 10px;
 
 }
@@ -70,7 +70,7 @@ ul li::before{
     height: 28px;
     width: 28px;
     border-radius:0%;
-    background-image: url(square.png) ;
+    background-image: url(/image/square.png) ;
     background-size: cover;
     background-position: center;
     top: 12px;
@@ -82,7 +82,7 @@ ul li.checked{
 
 }
 ul li.checked::before{
-    background-image: url(check.png);
+    background-image: url(/image/check.png);
 }
 ul li span{
     position: absolute;
